@@ -1,0 +1,18 @@
+
+public class Hello {
+	
+	void display() {
+		
+		
+		System.out.println("Hello Display");
+	}
+	
+	void display(int a) {
+		
+		
+		System.out.println("Hello Display arg"+" "+a);
+		
+		
+	}
+
+}

@@ -1,0 +1,46 @@
+
+public interface WatsappCall {
+	
+	void call();
+	void mute();
+	void disconnect();
+
+}
+
+class AudioCall implements WatsappCall{
+	
+	
+	public void calls(){
+		System.out.println("Watsapp audio call..!");
+		
+	}
+	public void mute() {
+		
+		System.out.println("Watsapp call muted..!");
+	}
+	
+	public void disconnect() {
+		
+		System.out.println("Watsapp call disconnected..!");
+	}
+	
+}
+
+class VedioCall implements WatsappCall{
+	
+	
+	public void call() {
+		System.out.println("Watsapp vedio call..!");
+		
+		
+	}
+	public void mute() {
+		System.out.println("Watsapp vedio call muted..!");
+	}
+	
+	public void disconnect() {
+		
+		System.out.println("watsapp vedio call disconnected..!");
+	}
+	
+}

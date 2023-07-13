@@ -1,0 +1,29 @@
+
+public class Hello {
+	 int a=10;
+	static int b=20;
+	
+	public static void main(String arg[]) {
+		
+		
+		Hello h=new Hello();
+		Hello h1=new Hello();
+		
+		
+		h.b=50;
+		h1.b=100;
+		
+		
+		System.out.println("h.b:"+h.b);
+		h.a=30;
+		
+		System.out.println("h.a"+h.a);
+		
+		
+		
+	}
+	void hello() {
+	
+}
+}
+
